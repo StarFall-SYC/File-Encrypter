@@ -1,0 +1,205 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+中文(简体)语言资源文件
+"""
+
+translations = {
+    # 主窗口
+    "app_title": "文件加密工具",
+    "ready": "就绪",
+    
+    # 菜单
+    "menu_file": "文件",
+    "menu_encrypt": "加密文件",
+    "menu_decrypt": "解密文件",
+    "menu_exit": "退出",
+    "menu_tools": "工具",
+    "menu_keys": "密钥管理",
+    "menu_settings": "设置",
+    "menu_help": "帮助",
+    "menu_about": "关于",
+    
+    # 标签页
+    "tab_encrypt": "文件加密",
+    "tab_decrypt": "文件解密",
+    "tab_keys": "密钥管理",
+    "tab_monitor": "文件监控",
+    "tab_settings": "设置",
+    
+    # 加密/解密标签页
+    "encrypt_title": "文件加密",
+    "encrypt_desc": "加密您的文件和文件夹，确保数据安全",
+    "decrypt_title": "文件解密",
+    "decrypt_desc": "解密之前加密的文件，恢复原始数据",
+    "algo_group": "加密算法",
+    "algo_symmetric": "对称加密",
+    "algo_asymmetric": "非对称加密",
+    "key_group": "密钥选择",
+    "key_select": "选择密钥:",
+    "key_create": "创建新密钥",
+    "file_group": "文件选择",
+    "file_select": "选择文件",
+    "folder_select": "选择文件夹",
+    "output_group": "输出选项",
+    "output_dir": "输出目录:",
+    "output_select": "选择目录",
+    "delete_original": "处理后删除原文件",
+    "verify_encryption": "验证加密结果",
+    "btn_encrypt": "开始加密",
+    "btn_decrypt": "开始解密",
+    
+    # 密钥管理标签页
+    "keys_title": "密钥管理",
+    "keys_desc": "创建、导入、导出和删除加密密钥",
+    "keys_filter": "过滤密钥:",
+    "keys_create": "创建密钥",
+    "keys_import": "导入密钥",
+    "keys_export": "导出密钥",
+    "keys_delete": "删除密钥",
+    "keys_name": "名称",
+    "keys_type": "类型",
+    "keys_algo": "算法",
+    "keys_protected": "受保护",
+    
+    # 文件监控标签页
+    "monitor_title": "文件监控管理",
+    "monitor_desc": "监控文件夹中的变化并自动加密或解密文件",
+    "monitor_tasks": "监控任务",
+    "monitor_add": "添加",
+    "monitor_edit": "编辑",
+    "monitor_delete": "删除",
+    "monitor_refresh": "刷新",
+    "monitor_id": "监控ID",
+    "monitor_dir": "监控目录",
+    "monitor_auto": "自动处理",
+    "monitor_status": "状态",
+    "monitor_details": "任务详情",
+    "monitor_select": "选择一个监控任务查看详细信息",
+    "monitor_detail": "监控详情",
+    "monitor_selection": "请选择一个监控项查看详情",
+
+    # 设置标签页
+    "settings_title": "应用设置",
+    "settings_desc": "自定义应用程序行为和外观",
+    "settings_general": "常规设置",
+    "settings_language": "界面语言:",
+    "settings_theme": "界面主题:",
+    "settings_dark_mode": "深色模式",
+    "settings_auto_start": "开机自动启动",
+    "settings_adv": "高级设置",
+    "settings_buffer": "缓冲区大小:",
+    "settings_threads": "最大线程数:",
+    "settings_save": "保存设置",
+    "settings_reset": "重置默认",
+    "settings_encryption": "加密设置",
+    "settings_default_algorithm": "默认加密算法:",
+    "settings_saved": "设置已保存",
+    "settings_reset_confirm": "确定要将所有设置重置为默认值吗？",
+    "settings_reset_success": "已恢复默认设置",
+    "preview": "预览",
+    
+    # 对话框
+    "dialog_error": "错误",
+    "dialog_warning": "警告",
+    "dialog_info": "信息",
+    "dialog_confirm": "确认",
+    "dialog_cancel": "取消",
+    "dialog_ok": "确定",
+    "dialog_yes": "是",
+    "dialog_no": "否",
+    "yes": "是",
+    "no": "否",
+    
+    # 密码对话框
+    "password_title": "密码输入",
+    "password_prompt": "请输入密码:",
+    "password_confirm": "确认密码:",
+    "password_show": "显示密码",
+    "password_hint": "密码提示: 使用字母、数字和特殊字符组合以提高安全性",
+    
+    # 密钥生成对话框
+    "keygen_title": "生成新密钥",
+    "keygen_desc": "请输入密钥信息以创建新密钥。\n密钥名称应当能够帮助您识别其用途。",
+    "keygen_name": "密钥名称:",
+    "keygen_random": "随机",
+    "keygen_sym_info": "对称加密使用相同的密钥进行加密和解密，适合大文件加密",
+    "keygen_asym_info": "非对称加密使用公钥加密和私钥解密，适合安全密钥交换",
+    "keygen_length_info": "注意：密钥长度越大越安全，但加密解密速度越慢",
+    "keygen_security": "安全选项",
+    "keygen_password": "使用密码保护密钥",
+    "keygen_password_info": "密码保护可以防止未授权访问您的密钥",
+    "keygen_generate": "生成密钥",
+
+    # 监控配置对话框
+    "monitor_config_title": "文件监控配置",
+    "monitor_config_dir": "监控目录",
+    "monitor_config_dir_select": "选择目录",
+    "monitor_config_settings": "监控设置",
+    "monitor_config_recursive": "递归监控子目录",
+    "monitor_config_auto": "自动处理新文件",
+    "monitor_config_filter": "文件过滤",
+    "monitor_config_filter_note": "文件模式支持通配符，多个模式请用英文分号(;)分隔",
+    "monitor_config_include": "包含模式:",
+    "monitor_config_exclude": "排除模式:",
+    "monitor_config_include_placeholder": "例如: *.txt;*.doc;*.pdf",
+    "monitor_config_exclude_placeholder": "例如: *.tmp;~*;.git*",
+    "monitor_config_process": "自动处理设置",
+    "monitor_config_type": "处理类型:",
+    "monitor_config_key": "使用密钥:",
+    "monitor_config_output": "输出目录:",
+    "monitor_config_output_select": "选择",
+    "monitor_config_delete": "处理后删除原文件",
+
+    # 进度对话框
+    "progress_title": "处理进度",
+    "progress_encrypt": "加密进度",
+    "progress_decrypt": "解密进度",
+    "progress_message": "请稍候...",
+    "progress_init": "初始化...",
+    "progress_cancel": "取消操作",
+    "progress_cancel_confirm": "确定要取消当前操作吗？",
+    "progress_cancelling": "正在取消操作...",
+
+    # 成功/错误消息
+    "encrypt_success": "文件加密完成！",
+    "decrypt_success": "文件解密完成！",
+    "key_gen_success": "密钥生成成功！",
+    "key_import_success": "密钥 '{0}' 导入成功！",
+    "key_export_success": "密钥 '{0}' 导出到 {1} 成功！",
+    "key_delete_success": "密钥 '{0}' 已删除！",
+    "encrypt_error": "加密错误",
+    "decrypt_error": "解密错误",
+    "key_error": "密钥错误",
+    "key_not_found": "找不到名为 {0} 的密钥。",
+    "no_keys": "没有可用的加密密钥。请先生成或导入密钥。",
+    "password_empty": "密码不能为空",
+    "password_mismatch": "两次输入的密码不一致",
+    
+    # 主题
+    "theme_light": "浅色",
+    "theme_dark": "深色",
+    "theme_system": "跟随系统",
+    "theme_blue": "蓝色",
+    "theme_green": "绿色",
+    "theme_purple": "紫色",
+    
+    # 语言
+    "lang_zh_CN": "中文(简体)",
+    "lang_en_US": "英文(美国)",
+
+    # Keys tab
+    "keys_name": "密钥名称",
+    "keys_type": "密钥类型",
+    "keys_algo": "算法",
+    "keys_protected": "受保护",
+    "keys_create": "新建密钥",
+    "keys_import": "导入密钥",
+    "keys_export": "导出密钥",
+    "keys_delete": "删除密钥",
+    "keys_desc": "管理您的加密密钥",
+    "keys_filter": "过滤：",
+    "key_type_symmetric": "对称密钥",
+    "key_type_asymmetric": "非对称密钥",
+} 

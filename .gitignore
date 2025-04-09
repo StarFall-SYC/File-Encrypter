@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# PyQt
+*.qm
+*.qmlc
+*.jsc
+.qmake.stash
+ui_*.py
+*_rc.py
+
+# 日志文件
+logs/
+*.log
+
+# 临时文件
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+
+# 测试和加密文件
+*.enc
+*.dec
+test*.txt
+test_*.txt
+*_decrypted.*
+
+# 用户配置文件和密钥
+.file_encrypter/
+
+# 其他可能的临时/敏感文件
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+*.bak
+*.pkl
+*.tmp 

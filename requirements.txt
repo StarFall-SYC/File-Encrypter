@@ -1,0 +1,10 @@
+cryptography==41.0.1
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.12.2
+pillow==10.0.0
+pyperclip==1.8.2
+pycryptodome==3.18.0
+pyAesCrypt==6.1.0
+watchdog==3.0.0
+pywin32==306; sys_platform == 'win32' 
